@@ -1,3 +1,8 @@
+body {
+  font-family: 'new courier', monospace;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  }
+
 /* Animação de gradiente para o fundo */
 @keyframes gradient {
   0% {
@@ -19,8 +24,12 @@
 }
 
 /* Melhorias de acessibilidade para foco */
-input:focus, button:focus, a:focus {
+input:focus, a:focus {
   outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+button:focus {
   outline-offset: 2px;
 }
 
